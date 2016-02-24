@@ -1,0 +1,7 @@
+name = solr_LSU
+description = Our fields for solr configuration
+core = 7.x
+package = Features
+dependencies[] = islandora_solr
+features[features_api][] = api:2
+features[islandora_solr_fields][] = all_solr_fields
