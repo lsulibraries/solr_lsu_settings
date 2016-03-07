@@ -205,16 +205,42 @@ function solr_lsu_settings_islandora_solr_fields_features_default_fields() {
     'solr_field_settings' => array(),
   ),
   15 => array(
+    'solr_field' => 'dc.title',
+    'field_type' => 'result_fields',
+    'weight' => 4,
+    'solr_field_settings' => array(),
+  ),
+  16 => array(
     'solr_field' => 'dc.contributor',
     'field_type' => 'facet_fields',
     'weight' => 4,
     'solr_field_settings' => array(),
   ),
-  16 => array(
+  17 => array(
     'solr_field' => 'dc.subject',
     'field_type' => 'facet_fields',
     'weight' => 5,
     'solr_field_settings' => array(),
+  ),
+  18 => array(
+    'solr_field' => 'dc.description',
+    'field_type' => 'result_fields',
+    'weight' => 5,
+    'solr_field_settings' => array(
+      'label' => '',
+      'snippet' => NULL,
+      'date_format' => '',
+      'truncation_type' => 'separate_value_option',
+      'maximum_length' => 90,
+      'add_ellipsis' => 1,
+      'wordsafe' => FALSE,
+      'wordsafe_length' => 1,
+      'permissions' => array(
+        3 => 3,
+      ),
+      'link_to_object' => FALSE,
+      'link_to_search' => FALSE,
+    ),
   ),
 );
 }
