@@ -294,9 +294,9 @@ function solr_lsu_settings_islandora_solr_metadata_configurations_default_fields
       ),
       'mods_name_personal_namePart_ms' => array(
         'solr_field' => 'mods_name_personal_namePart_ms',
-        'data' => 'a:3:{s:13:"display_label";s:30:"mods_name_personal_namePart_ms";s:9:"hyperlink";i:0;s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}}',
+        'data' => 'a:3:{s:13:"display_label";s:5:"Name ";s:9:"hyperlink";i:0;s:10:"truncation";a:5:{s:15:"truncation_type";s:21:"separate_value_option";s:10:"max_length";s:1:"0";s:9:"word_safe";i:0;s:8:"ellipsis";i:0;s:19:"min_wordsafe_length";s:1:"1";}}',
         'weight' => 5,
-        'display_label' => 'mods_name_personal_namePart_ms',
+        'display_label' => 'Name ',
         'hyperlink' => 0,
         'truncation' => array(
           'truncation_type' => 'separate_value_option',
